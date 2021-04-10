@@ -1,6 +1,6 @@
 using System;
 
-class Movable: FailureReason
+abstract class Movable: FailureReason
 {
     public override string failureType 
     {

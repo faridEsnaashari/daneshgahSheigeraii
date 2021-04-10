@@ -1,6 +1,6 @@
 using System;
 
-class UnMovable: FailureReason
+abstract class UnMovable: FailureReason
 {
     public override string failureType 
     {
