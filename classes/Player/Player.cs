@@ -6,7 +6,7 @@ class Player: IPlayerAssets
     private string _gender;
     private int _health = 100;
 
-    private int _coin;
+    private int _coin = 0;
     private string _weapon;
 
     public string name
@@ -34,8 +34,12 @@ class Player: IPlayerAssets
 
     public int coin
     {
-        set { _coin = value; }
         get { return _coin; }
+    }
+
+    public void increaseCoin()
+    {
+        _coin += 1;
     }
 
     public void resetHealth()
