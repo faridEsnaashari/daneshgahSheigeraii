@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/farid/project/daneshgah/shamsipour/sheigeraii/gameExample/gameExample.csproj",
+      "projectUniqueName": "/home/farid/project/daneshgah/shamsipour/sheigeraii/gameExample.csproj",
       "projectName": "gameExample",
-      "projectPath": "/home/farid/project/daneshgah/shamsipour/sheigeraii/gameExample/gameExample.csproj",
+      "projectPath": "/home/farid/project/daneshgah/shamsipour/sheigeraii/gameExample.csproj",
       "packagesPath": "/home/farid/.nuget/packages/",
-      "outputPath": "/home/farid/project/daneshgah/shamsipour/sheigeraii/gameExample/obj/",
+      "outputPath": "/home/farid/project/daneshgah/shamsipour/sheigeraii/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/farid/.nuget/NuGet/NuGet.Config"
