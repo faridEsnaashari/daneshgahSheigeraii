@@ -6,11 +6,15 @@ class Bank
     private Customer[] _customers = new Customer[200];
     private Employe[] _employes = new Employe[200];
     private ATM[] _atms = new ATM[200];
+    private InternalBranch[] _internalbranches = new InternalBranch[200];
+    private NEOBranch[] _neobranches = new NEOBranch[200];
 
     private int _acountsCounter = 0;
     private int _customersCounter = 0;
     private int _employesCounter = 0;
     private int _atmsCounter = 0;
+    private int _neobranchesCounter = 0;
+    private int _internalbranchesCounter = 0;
 
     public Bank()
     {
@@ -40,8 +44,20 @@ class Bank
 
     public void addAtm()
     {
-        _atms[_atmsCounter++] = new Atm();
+        _atms[_atmsCounter++] = new ATM();
         Console.WriteLine("ATM added");
+    }
+    
+    public void addInternalBranch()
+    {
+        _internalbranches[_internalbranchesCounter++] = new InternalBranch();
+        Console.WriteLine("Internal branch added");
+    }
+
+    public void addNeoBranch()
+    {
+        _neobranches[_neobranchesCounter++] = new NEOBranch();
+        Console.WriteLine("Neo branch added");
     }
 
     private void addAcount(Customer customer)
