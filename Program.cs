@@ -12,6 +12,7 @@ namespace gameExample
             Customer customer1 = new Customer();
             Customer customer2 = new Customer();
             Customer customer3 = new Customer();
+            Customer customer5 = new Customer();
 
             bank.addCustomer(customer1);
             bank.addCustomer(customer2);
@@ -39,6 +40,20 @@ namespace gameExample
             bank.addAtm();
             bank.addAtm();
             bank.addAtm();
+
+
+            Console.WriteLine("\n\n######### ADDING NEOBranches #########");
+            bank.addNeoBranch();
+            bank.addNeoBranch();
+            bank.addNeoBranch();
+            bank.addNeoBranch();
+
+
+            Console.WriteLine("\n\n######### ADDING InternalBranches #########");
+            bank.addInternalBranch();
+            bank.addInternalBranch();
+            bank.addInternalBranch();
+            bank.addInternalBranch();
         }
 
     }
