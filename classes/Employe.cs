@@ -1,6 +1,6 @@
 using System;
 
-class Employe
+class Employe: Person
 {
     public Employe()
     {
