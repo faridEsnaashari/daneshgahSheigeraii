@@ -32,18 +32,9 @@ class Bank
         Console.WriteLine("Customer added");
     }
 
-    public void addEmploye(Employe employe)
+    public void addEmploye()
     {
-        for(int i = 0; i < _employesCounter; i++)
-        {
-            if(employe == _employes[i])
-            {
-                Console.WriteLine("This employe already existed");
-                return;
-            }
-        }
-
-        _employes[_employesCounter++] = employe;
+        _employes[_employesCounter++] = new Employe();
         Console.WriteLine("Employe added");
     }
 
