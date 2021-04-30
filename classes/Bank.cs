@@ -38,18 +38,9 @@ class Bank
         Console.WriteLine("Employe added");
     }
 
-    public void addAtm(ATM atm)
+    public void addAtm()
     {
-        for(int i = 0; i < _atmsCounter; i++)
-        {
-            if(atm == _atms[i])
-            {
-                Console.WriteLine("This ATM already existed");
-                return;
-            }
-        }
-
-        _atms[_atmsCounter++] = atm;
+        _atms[_atmsCounter++] = new Atm();
         Console.WriteLine("ATM added");
     }
 
