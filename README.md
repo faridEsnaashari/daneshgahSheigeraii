@@ -8,3 +8,16 @@ Diagram file and its png file are availble [here](https://github.com/faridEsnaas
 
 #### note:
 This project create with [dotnet cli](https://docs.microsoft.com/en-us/dotnet/core/install/).
+
+# Abstract classes:
+- Person
+- Branch
+
+# Concrete classes:
+- ATM
+- Bank
+- NEOBranch
+- InternalBranch
+- Customer
+- Employee
+- Acount
